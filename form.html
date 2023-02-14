@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<form>
+
+	Name:<input type="text" placeholder="Enter a name" required pattern="[a-zA-Z]{3,5}" title="Min 3 Max 5 letters..!"><br><br>
+	Email:<input type="email" placeholder="Enter a email"><br><br>
+	Password:<input type="password" ><br><br>
+	Date:<input type="Date" ><br><br>
+	Date-Time:<input type="DateTime-local" ><br><br>
+	Color:<input type="Color" ><br><br>
+	Mobile:<input type="mobile number" required pattern="[0-9]{10}" title="10 digits only"><br><br>
+	Gender:<input type="radio" name="Gender">male
+		   <input type="radio" name="Gender" >female<br><br>
+	Country:
+		<select>
+			<option hidden>--Select your country--</option>
+			<option>India</option>
+			<option>USA</option>
+			<option>UK</option>
+			<option>Canada</option>
+		</select><br><br>
+	Languages:<input type="checkbox" >Gujarati
+			  <input type="checkbox" >English
+			  <input type="checkbox" >Hindi
+			  <input type="checkbox" >Tamil<br><br>
+	Quantity:<input type="number" ><br><br>
+	Upload File:<input type="File" ><br><br>
+	<input type="Reset" ><br><br>
+	<input type="Submit" value="sign up" ><br><br>
+
+
+
+	</form>
+
+</body>
+</html>
